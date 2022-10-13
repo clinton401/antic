@@ -163,6 +163,7 @@ header {
 }
 .ham h5 {
     color: white;
+    /* border: 3px solid black; */
 }
 .hamburger {
     display: block;
@@ -173,12 +174,14 @@ header {
     appearance: none;
     background: none;
     outline: none;
+    padding-top: 5px;
     border: none;
+    /* border: 3px solid black; */
 
 
 }
 
-.hamburger .bar, .hamburger::after, .hamburger::before {
+.hamburger .bar, .hamburger::before {
     content: "";
     display: block;
     width: 100%;
@@ -189,18 +192,32 @@ header {
     margin: 6px 0px;
     transition: 0.4s;
 }
+.hamburger::after {
+    content: "";
+    display: block;
+    opacity: 0;
+    width: 100%;
+    height: 5px;
+    margin: 0 auto;
+
+    background-color: white;
+    margin: 6px 0px;
+    transition: 0.4s;
+}
 
  .hamburger.is-active:before {
-    transform: rotate(-405deg) translate(-8px, 6px);
+    transform: rotate(-405deg) translate(-11px, 3px);
     background-color: darkred;
 
 }
 .hamburger.is-active .bar {
-    opacity: 0;
+    transform: rotate(405deg) translate(-5px, 4px);
+    background-color: darkred;
+
 }
 .hamburger.is-active:after {
-    transform: rotate(405deg) translate(-8px, -8px);
-    background-color: darkred;
+
+    opacity: 0;
 
 }
 .mobile-nav {
