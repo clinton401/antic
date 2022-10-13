@@ -109,10 +109,19 @@
       width: 100%;
       margin: 0;
      }
-     .third-rightdiv button {
+     footer form {
+      display: block;
+     }
+     form button {
       width: 300px;
       /* margin-bottom: 5px; */
+      margin: 0 auto;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+
      }
+     
      .third-rightdiv .dummy {
 
       /* border: 3px solid blue; */

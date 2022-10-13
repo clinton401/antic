@@ -347,19 +347,22 @@ footer {
     cursor: text;
 
 }
-.third-rightdiv button {
+form {
+    display: flex;
+}
+form button {
     padding: 10px 20px;
     background-color: #706458;
     color: white;
     border: 3px solid #706458;
 
 }
-.third-rightdiv button:hover {
-    background-color: brown;
+form button:hover {
+    background-color: #706458;
     color: black;
     cursor: grab;
     transition: 1s;
-    border: 3px solid brown;
+    border: 3px solid #706458;
 }
 .copy h3 {
     /* color: black; */
