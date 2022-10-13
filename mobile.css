@@ -6,11 +6,12 @@
 
 
      .section .first-leftdiv {
-        width: 100%;
+       width: 100%;
         padding-bottom: 100px;
+        /* height: 50px; */
         /* border: 3px solid black; */
         background-image: url("./header.png");
-        background-position: center;
+        /* background-position: center; */
         object-fit: cover;
         background-size: cover;
         background-repeat: no-repeat;
@@ -55,6 +56,8 @@
      }
      .b {
         flex-wrap: wrap;
+        /* margin-top: 250px;
+        overflow: hidden; */
      }
      .section .second-leftdiv, .section .second-rightdiv{
         width: 100%;
@@ -109,11 +112,10 @@
       margin: 0 auto;
       width: 100%;
       margin: 0;
+      /* display: block; */
      }
-     footer form {
-      display: block;
-     }
-     form button {
+
+     .third-rightdiv button {
       width: 300px;
       /* margin-bottom: 5px; */
       margin: 0 auto;

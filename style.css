@@ -347,17 +347,15 @@ footer {
     cursor: text;
 
 }
-form {
-    display: flex;
-}
-form button {
+
+.third-rightdiv button {
     padding: 10px 20px;
     background-color: #706458;
     color: white;
     border: 3px solid #706458;
 
 }
-form button:hover {
+.third-rightdiv button:hover {
     background-color: #706458;
     color: black;
     cursor: grab;
