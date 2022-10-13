@@ -1,4 +1,4 @@
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 800px) {
      .first-leftdiv .nav{
       display: none;
      }
@@ -7,6 +7,7 @@
 
      .section .first-leftdiv {
         width: 100%;
+        padding-bottom: 100px;
         /* border: 3px solid black; */
         background-image: url("./header.png");
         background-position: center;
@@ -29,18 +30,16 @@
 
      .home-design h6 {
         text-align: center;
-        padding-top: 50px;
+        padding-top: 30px;
         padding-bottom: 5px;
         display: flex;
         justify-content: center;
      }
      .section .first-icon {
-         /* border: 3px solid #F3EEE8; */
-          /* color: transparent;
-        background-color: transparent; */
+      border: 2px solid white;
+      color: white;
 
-        /* width: 100%; */
-        text-align: center;
+
 
         overflow: hidden;
      }
@@ -110,28 +109,50 @@
       margin: 0;
      }
      .third-rightdiv button {
-      width: 90%;
+      width: 300px;
       /* margin-bottom: 5px; */
      }
      .third-rightdiv .dummy {
 
       /* border: 3px solid blue; */
-      width: 100%;
-      margin: 0 auto;
-     }
-     .third-rightdiv .dumm {
-      /* padding: 0 5%; */
-      margin: 0 auto;
-      /* border: 3px solid black; */
-      width: 90%;
-      margin-left: 5%;
-      margin-bottom: 10px;
+      /* width: 70%; */
+      /* margin: 0 auto; */
+      width: 700px;
+      display: flex;
+      justify-content: center;
+      /* border: 3px solid blue; */
+      padding-bottom: 10px;
 
      }
+     .dummy .dumm {
+      width: 250px;
+      /* margin-bottom: 10px; */
+     }
+
+     .dummy .dumm:hover{
+       margin: 0 auto;
+      /* marg; */
+      /* text-align: center; */
+      width: 300px;
+      display: flex;
+      justify-content: center;
+      background-color: black;
+      color: white;
+      justify-content: center;
+      border: 2px solid transparent;
+     }
+
+     /* .third-rightdiv input {
+      /* padding: 0 5%; */
+      /* margin: 0 auto;
+      /* border: 3px solid black; */
+      /* width: 500px; */
+      /* margin-left: 5%; */
+      /* margin-bottom: 10px; */
 
 
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
    .section .mobile-nav {
       display: none;
   }
