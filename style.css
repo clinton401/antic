@@ -246,6 +246,7 @@ header {
 }
 .mobile-nav a:hover {
     background-color: tomato;
+    border: 3px solid tomato;
 }
 .second-rightdiv {
     width: 50%;
