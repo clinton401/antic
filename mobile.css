@@ -102,7 +102,7 @@
      }
 
 }
-@media only screen and (max-width: 400px) and (min-width: 100px) {
+@media only screen and (max-width: 350px) and (min-width: 100px) {
    .third-leftdiv {
       display: none;
      }
@@ -156,7 +156,7 @@
      }
 
 }
-@media only screen and (max-width: 910px) and (min-width: 401px) {
+@media only screen and (max-width: 910px) and (min-width: 351px) {
    .third-leftdiv {
       display: none;
      }
