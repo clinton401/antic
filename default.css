@@ -1,0 +1,13 @@
+@keyframes ripple {
+    0% {
+        box-shadow: 0 0 0 0 black, 0 0 0 0 black;
+    }
+
+    80% {
+        box-shadow: 0 0 0 20px transparent, 0 0 0 40px transparent;
+    }
+
+    100% {
+        box-shadow: 0 0 0 20 transparent, 0 0 0 40 transparent;
+    }
+}
