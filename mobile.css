@@ -263,13 +263,14 @@
    .after-footer .footer-img {
       flex-wrap: wrap;
       width: 80%;
-      margin: 0;
+      margin: 0 auto;
       display: block;
       overflow: hidden;
+      /* border: 3px solid black; */
       /* text-align: center; */
      }
      .footer-img figure{
-      width: 80%;
+      width: 100%;
       flex-wrap: wrap;
       text-align: center;
       display: block;
