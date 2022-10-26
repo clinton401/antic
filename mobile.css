@@ -101,6 +101,28 @@
 
      }
 
+      .after-footer .insp-icon {
+      display: none;
+     }
+     .after-footer .inspiration {
+      display: none;
+      margin: 0 auto;
+
+     }
+     .after-footer .insp-b {
+      display: block;
+     }
+     .insp-b h1 {
+      color: black;
+      font-size: 30px;
+      padding-bottom: 15px;
+     }
+      .insp-b h6 {
+         font-size: 15px;
+
+     }
+
+
 }
 @media only screen and (max-width: 350px) and (min-width: 100px) {
    .third-leftdiv {
@@ -154,6 +176,7 @@
       justify-content: center;
       border: 2px solid transparent;
      }
+
 
 }
 @media only screen and (max-width: 910px) and (min-width: 351px) {
@@ -219,6 +242,7 @@
 
 
 }
+
 @media screen and (min-width: 800px) {
    body {
       max-width: 1500px;
@@ -233,4 +257,71 @@
   .section .ham {
    display: none;
   }
+
+}
+@media only screen and (max-width: 425px) and (min-width: 50px) {
+   .after-footer .footer-img {
+      flex-wrap: wrap;
+      width: 80%;
+      margin: 0;
+      display: block;
+      overflow: hidden;
+      /* text-align: center; */
+     }
+     .footer-img figure{
+      width: 80%;
+      flex-wrap: wrap;
+      text-align: center;
+      display: block;
+      margin: 0 auto;
+      padding-bottom: 70px;
+      flex-direction: column;
+     }
+     .footer-img img {
+      margin-bottom: 20px;
+     }
+     .footer-img figcaption {
+      display: block;
+      /* margin-bottom: 50px; */
+     }
+}
+@media only screen and (max-width: 800px) and (min-width: 426px) {
+
+   .after-footer .footer-img {
+      /* flex-wrap: wrap; */
+      display: flex;
+      width: 85%;
+      margin: 0 auto;
+      justify-content: space-between;
+      /* display: flex; */
+      /* flex-direction: row; */
+      align-items: center;
+      flex-wrap: wrap;
+
+
+
+       overflow-x: hidden;
+      /* text-align: center; */
+      /* border: 2px solid red; */
+     }
+     .footer-img figure{
+      width: 40%;
+      height: 200px;
+      /* border: 3px solid black; */
+      flex-wrap: wrap;
+      text-align: center;
+      display: block;
+      margin: 0;
+      /* margin-left: 6%; */
+      /* margin: 0 auto; */
+      padding-bottom: 60px;
+      /* flex-direction: column; */
+     }
+     .footer-img img {
+      margin-bottom: 15px;
+     }
+     .footer-img figcaption {
+      display: block;
+      /* margin-bottom: 50px; */
+     }
 }

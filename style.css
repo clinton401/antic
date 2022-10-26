@@ -6,6 +6,7 @@
 body {
     font-family: 'Merriweather', serif;
     color: #706458;
+    overflow-x: hidden;
 
 }
 html {
@@ -399,8 +400,9 @@ footer {
     /* animation: ripple 2s infinite; */
     font-size: 20px;
     position: fixed;
-    bottom: 30px;
-    left: 88%;
+    cursor: pointer;
+    bottom: 100px;
+    left: 85%;
 
     /* -webkit-backdrop-filter: blur(100px); */
 }
@@ -408,6 +410,95 @@ footer {
     color: black;
 }
 .up:hover {
-    animation: ripple 2s 1;
+    animation: ripple 2s infinite;
 
+}
+.after-footer {
+    padding-bottom: 100px;
+}
+.footer-img {
+    /* border: 3px solid black; */
+    margin-left: 6%;
+    /* flex-wrap: nowrap; */
+    display: inline-block;
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
+      /* overflow: scroll; */
+     overflow-y: hidden;
+     overflow-x: scroll;
+     /* flex-direction: column-reverse; */
+     width: 100%;
+     white-space: nowrap;
+         position: relative;
+     /* -webkit-overflow-scrolling: touch; */
+    justify-content: space-between;
+}
+img {
+
+    height: 100%;
+    width: 100%;
+    /* float: none;
+    object-fit: cover;
+    /* height: 300px; */
+    /* display: inline-block;
+    zoom: 1;
+    margin: 0 0.25%;
+    flex-direction: row; */
+    /* overflow: scroll; */
+}
+figcaption {
+
+    /* border: 3px solid blue; */
+    text-align: center;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    display: none;
+}
+figure {
+    width: 300px;
+    float: none;
+    object-fit: cover;
+    height: 270px;
+    display: inline-block;
+    zoom: 1;
+    margin-right: 180px;
+
+
+    /* margin-bottom: 20px; */
+    /* overflow: scroll; */
+}
+/* .fig {
+    margin-right: 180px;
+}
+.last-fig {
+    margin-right: 30px;
+} */
+.inspiration {
+    display: flex;
+    width: 83%;
+    /* margin: 0 auto; */
+    margin-left: 6%;
+    /* border: 3px solid black; */
+     padding: 50px 0;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.insp-b {
+    display: none;
+}
+/* .inspiration h1 {
+
+} */
+.inspiration h6 {
+    /* font-size: 10px; */
+    /* font-family: 'Inter', sans-serif; */
+    font-weight: 900;
+    /* color:  #706458; */
+}
+.insp-icon i {
+    border-radius: 50%;
+    border: 2px solid #A06056;
+    padding: 8px;
+    margin-right: 10px;
+    color: #A06056;
 }
