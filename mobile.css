@@ -123,6 +123,9 @@
      }
 
 
+
+
+
 }
 @media only screen and (max-width: 350px) and (min-width: 100px) {
    .third-leftdiv {
@@ -257,6 +260,12 @@
   .section .ham {
    display: none;
   }
+  .swiper-slide h4 {
+
+   display: none;
+   /* border: 3px solid black; */
+ }
+
 
 }
 @media only screen and (max-width: 425px) and (min-width: 50px) {
@@ -284,6 +293,93 @@
      .footer-img figcaption {
       display: block;
       /* margin-bottom: 50px; */
+     }
+     main .last-footer {
+      flex-wrap: wrap;
+     }
+    .last-footer .below-footer{
+      flex-wrap: wrap;
+      display: flex;
+      justify-content: space-around;
+      /* flex-direction: column; */
+      width: 100%;
+     }
+     .below-footer .first-h9{
+      width: 100%;
+      text-align: center;
+      /* border: 3px solid black; */
+     }
+     .planet h5 {
+       font-size: 15px;
+     }
+     .h h4 {
+      font-size: 20px;
+     }
+
+     .below-footer .planet {
+      width: 80%;
+      margin: 0 auto;
+      /* border: 3px solid blue; */
+      /* border: 3px solid blue; */
+     }
+     .below-footer .h {
+      width: 80%;
+      margin: 0 auto;
+
+     }
+     .below-footer .y {
+      display: block;
+      width: 80%;
+      margin: 0 auto;
+     }
+     .planet .fo {
+      width: 90%;
+     }
+     .below-footer .hen {
+      display: none;
+     }
+     .last-footer .github {
+      width: 80%;
+     }
+     .copy {
+      /* flex-wrap: wrap; */
+      display: flex;
+      flex-direction: column-reverse;
+      /* text-align: left; */
+     }
+     .copy .after-copy {
+      width: 90%;
+      flex-wrap: wrap;
+      /* border: 3px solid blue; */
+      padding-bottom: 30px;
+      margin: 0 auto;
+     }
+     .after-copy h5 {
+      width: 50%;
+      /* border: 3px solid black; */
+      margin: 0 auto;
+      padding-bottom: 10px;
+      font-size: 15px;
+      text-align: center;
+     }
+     .after-copy h5:hover {
+      text-decoration: underline;
+     }
+     .copy .copyright {
+      width: 80%;
+      /* border: 3px solid black; */
+      margin: 0 auto;
+      padding: 0;
+     }
+     .copyright h5 {
+      font-size: 15px;
+      width: 100%;
+      /* border: 1px solid red; */
+      /* text-align: left; */
+     }
+     body .swiper {
+      width: 90%;
+      height: 300px;
      }
 }
 @media only screen and (max-width: 800px) and (min-width: 426px) {
@@ -325,4 +421,52 @@
       display: block;
       /* margin-bottom: 50px; */
      }
+     main .last-footer {
+      flex-wrap: wrap;
+     }
+     .last-footer .below-footer{
+      flex-wrap: wrap;
+      padding-left: 30px;
+      display: flex;
+      justify-content: space-around;
+      /* flex-direction: column; */
+      width: 100%;
+     }
+     .below-footer .first-h9{
+      width: 100%;
+      text-align: center;
+      /* border: 3px solid black; */
+     }
+     .below-footer .h {
+      width: 40%;
+      /* border: 3px solid black; */
+     }
+     .below-footer .planet {
+      width: 40%;
+      /* border: 3px solid blue; */
+     }
+     .below-footer .y {
+      display: block;
+      width: 40%;
+     }
+     .below-footer .hen {
+      display: none;
+     }
+     .below-footer .dog {
+      text-align: right;
+     }
+     .below-footer .planet {
+       text-align: right;
+     }
+     .last-footer .github {
+      width: 30%;
+     }
+
+}
+@media only screen and (max-width: 1130px) and (min-width: 801px) {
+
+.planet .fo {
+   width: 90%;
+}
+
 }
