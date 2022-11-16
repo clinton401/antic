@@ -339,7 +339,11 @@
       display: none;
      }
      .last-footer .github {
-      width: 80%;
+      width: 60%;
+     }
+     .github .bra {
+      font-size: 15px;
+      padding: 7px;
      }
      .copy {
       /* flex-wrap: wrap; */
@@ -351,7 +355,7 @@
       width: 90%;
       flex-wrap: wrap;
       /* border: 3px solid blue; */
-      padding-bottom: 30px;
+      padding-bottom: 10px;
       margin: 0 auto;
      }
      .after-copy h5 {
