@@ -385,6 +385,9 @@
       width: 90%;
       height: 300px;
      }
+     .swiper-button-next, .swiper-button-prev {
+      display: none;
+     }
 }
 @media only screen and (max-width: 800px) and (min-width: 426px) {
 
